@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"eamodio.gitlens",
+		"oven.bun-vscode",
+		"ms-vscode-remote.remote-containers",
+		"biomejs.biome"
+	]
+}

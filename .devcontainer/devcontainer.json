@@ -1,0 +1,19 @@
+{
+	"name": "Bun",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"oven.bun-vscode",
+				"ms-vscode-remote.remote-containers",
+				"biomejs.biome"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/cirolosapio/devcontainers-features/alpine-docker-outside-of-docker:0": {
+			"installDockerCompose": true
+		}
+	}
+}
