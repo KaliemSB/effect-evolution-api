@@ -7,6 +7,7 @@
 		"@biomejs/biome": "2.1.2",
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
+		"@effect/language-service": "^0.28.3",
 		"@types/bun": "latest",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.1.2"
@@ -21,5 +22,9 @@
 		"*": [
 			"biome check --no-errors-on-unmatched --files-ignore-unknown=true --write"
 		]
+	},
+	"dependencies": {
+		"effect": "^3.17.1",
+		"xior": "^0.7.8"
 	}
 }
